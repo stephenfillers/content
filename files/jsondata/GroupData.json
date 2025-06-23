@@ -1133,6 +1133,20 @@
       "properties": ["Navigator.connection", "WorkerNavigator.connection"],
       "events": []
     },
+    "Notifications": {
+      "overview": ["Notifications API"],
+      "guides": ["/docs/Web/API/Notifications_API/Using_the_Notifications_API"],
+      "interfaces": ["Notification", "NotificationEvent"],
+      "methods": [
+        "ServiceWorkerRegistration.showNotification()",
+        "ServiceWorkerRegistration.getNotifications()"
+      ],
+      "properties": [],
+      "events": [
+        "ServiceWorkerGlobalScope: notificationclick",
+        "ServiceWorkerGlobalScope: notificationclose"
+      ]
+    },
     "Page Visibility API": {
       "overview": ["Page Visibility API"],
       "interfaces": [],
@@ -2212,20 +2226,6 @@
       "methods": [],
       "properties": [],
       "events": []
-    },
-    "Web Notifications": {
-      "overview": ["Notifications API"],
-      "guides": ["/docs/Web/API/Notifications_API/Using_the_Notifications_API"],
-      "interfaces": ["Notification", "NotificationEvent"],
-      "methods": [
-        "ServiceWorkerRegistration.showNotification()",
-        "ServiceWorkerRegistration.getNotifications()"
-      ],
-      "properties": [],
-      "events": [
-        "ServiceWorkerGlobalScope: notificationclick",
-        "ServiceWorkerGlobalScope: notificationclose"
-      ]
     },
     "WebRTC": {
       "overview": ["WebRTC API"],
